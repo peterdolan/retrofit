@@ -6,7 +6,7 @@ app = Flask(__name__, static_url_path='')
 def root():
     return render_template('index.html')
 
-@app.route("/index.html")
+@app.route("/get_started")
 def index():
     return render_template('article.html')
 
